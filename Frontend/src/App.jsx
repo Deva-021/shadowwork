@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 
-const API = "http://127.0.0.1:8000";
+const API = "https://shadowwork-production.up.railway.app";
 
 function App() {
   const [ticketId, setTicketId] = useState("1001");
