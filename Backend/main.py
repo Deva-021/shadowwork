@@ -19,6 +19,7 @@ app.add_middleware(
         "http://localhost:5173",
         "http://127.0.0.1:5173",
         "https://shadowwork-6hgnhm5kr-deva-021s-projects.vercel.app",
+        "https://shadowwork-kr31yybor-deva-021s-projects.vercel.app",
     ],
     allow_credentials=True,
     allow_methods=["*"],
