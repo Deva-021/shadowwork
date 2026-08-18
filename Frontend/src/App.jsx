@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 
-const API = "https://shadowwork-production.up.railway.app";
+const API = import.meta.env.VITE_API_URL;
 
 function App() {
   const [ticketId, setTicketId] = useState("1001");
